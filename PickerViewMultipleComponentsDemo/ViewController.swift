@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: Properties
+    var firstColumn : [String] = ["0", "1", "2", "3"]
+    var secondColumn : [String] = ["A", "B", "C", "D"]
+    
+    // MARK: Functions
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
