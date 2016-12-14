@@ -14,6 +14,10 @@ class ViewController: UIViewController {
     var firstColumn : [String] = ["0", "1", "2", "3"]
     var secondColumn : [String] = ["A", "B", "C", "D"]
     
+    @IBOutlet weak var labelResult: UILabel!
+    
+    @IBOutlet weak var picker: UIPickerView!
+    
     // MARK: Functions
     
     override func viewDidLoad() {
