@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
     // MARK: Properties
     var firstColumn : [String] = ["0", "1", "2", "3"]
